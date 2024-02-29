@@ -3,110 +3,110 @@ const quizz = [
         "number": 0,
         "question": "Quelle est la première étape pour créer un compte LinkedIn ?",
         "answers": [
-            "a) Télécharger l'application mobile",
-            "b) Entrer votre nom et prénom, puis votre adresse email et un mot de passe",
-            "c) Choisir un nom d'utilisateur et une photo de profil"
+            " Télécharger l'application mobile",
+            " Entrer votre nom et prénom, puis votre adresse email et un mot de passe",
+            " Choisir un nom d'utilisateur et une photo de profil"
         ],
-        "correct": "b) Entrer votre nom et prénom, puis votre adresse email et un mot de passe",
+        "correct": " Entrer votre nom et prénom, puis votre adresse email et un mot de passe",
         "tip": "Assurez-vous de fournir des informations correctes pour créer votre compte LinkedIn."
     },
     {
         "number": 1,
         "question": "Quelle est la dimension recommandée pour une photo de profil sur LinkedIn ?",
         "answers": [
-            "a) 800x800 pixels",
-            "b) 500x500 pixels",
-            "c) 1200x1200 pixels"
+            " 800x800 pixels",
+            " 500x500 pixels",
+            " 1200x1200 pixels"
         ],
-        "correct": "b) 500x500 pixels",
+        "correct": " 500x500 pixels",
         "tip": "Une photo de profil de taille adéquate garantit une meilleure visibilité et qualité sur LinkedIn."
     },
     {
         "number": 2,
         "question": "Qu'est-ce que le réseau sur LinkedIn ?",
         "answers": [
-            "a) Les personnes avec lesquelles vous êtes en relation sur LinkedIn",
-            "b) La couverture réseau pour les communications sans fil",
-            "c) Les données de trafic Internet"
+            " Les personnes avec lesquelles vous êtes en relation sur LinkedIn",
+            " La couverture réseau pour les communications sans fil",
+            " Les données de trafic Internet"
         ],
-        "correct": "a) Les personnes avec lesquelles vous êtes en relation sur LinkedIn",
+        "correct": " Les personnes avec lesquelles vous êtes en relation sur LinkedIn",
         "tip": "Votre réseau sur LinkedIn est composé de vos contacts professionnels et peut vous aider dans votre carrière."
     },
     {
         "number": 3,
         "question": "Que sont les publications sur LinkedIn ?",
         "answers": [
-            "a) Des annonces publicitaires",
-            "b) Des contenus partagés pour développer sa visibilité et notoriété",
-            "c) Des recommandations de produits"
+            " Des annonces publicitaires",
+            " Des contenus partagés pour développer sa visibilité et notoriété",
+            " Des recommandations de produits"
         ],
-        "correct": "b) Des contenus partagés pour développer sa visibilité et notoriété",
+        "correct": " Des contenus partagés pour développer sa visibilité et notoriété",
         "tip": "Les publications sur LinkedIn sont un moyen de partager des idées, des connaissances et d'interagir avec d'autres professionnels."
     },
     {
         "number": 4,
         "question": "Qu'est-ce que l'outil de messagerie sur LinkedIn ?",
         "answers": [
-            "a) Un outil pour écrire des articles",
-            "b) Un outil pour échanger des messages privés avec d'autres membres",
-            "c) Un outil pour créer des événements professionnels"
+            " Un outil pour écrire des articles",
+            " Un outil pour échanger des messages privés avec d'autres membres",
+            " Un outil pour créer des événements professionnels"
         ],
-        "correct": "b) Un outil pour échanger des messages privés avec d'autres membres",
+        "correct": " Un outil pour échanger des messages privés avec d'autres membres",
         "tip": "La messagerie sur LinkedIn est utile pour établir des connexions et communiquer avec d'autres professionnels."
     },
     {
         "number": 5,
         "question": "Que devrait contenir une photo de profil professionnelle sur LinkedIn ?",
         "answers": [
-            "a) Un arrière-plan chargé et coloré",
-            "b) Un selfie avec des amis",
-            "c) Un visage clair et net sur un fond neutre"
+            " Un arrière-plan chargé et coloré",
+            " Un selfie avec des amis",
+            " Un visage clair et net sur un fond neutre"
         ],
-        "correct": "c) Un visage clair et net sur un fond neutre",
+        "correct": " Un visage clair et net sur un fond neutre",
         "tip": "Votre photo de profil est importante car elle donne une première impression professionnelle."
     },
     {
         "number": 6,
         "question": "Comment finalisez-vous votre inscription sur LinkedIn ?",
         "answers": [
-            "a) En payant des frais d'inscription",
-            "b) En validant votre adresse email",
-            "c) En envoyant une demande de confirmation à LinkedIn"
+            " En payant des frais d'inscription",
+            " En validant votre adresse email",
+            " En envoyant une demande de confirmation à LinkedIn"
         ],
-        "correct": "b) En validant votre adresse email",
+        "correct": " En validant votre adresse email",
         "tip": "Assurez-vous de vérifier votre boîte de réception pour le lien de validation après votre inscription."
     },
     {
         "number": 7,
         "question": "Que sont les emplois suggérés sur LinkedIn ?",
         "answers": [
-            "a) Des offres d'emploi recommandées en fonction de votre profil",
-            "b) Des recommandations d'emplois pour vos amis",
-            "c) Des emplois que vous avez postulés précédemment"
+            " Des offres d'emploi recommandées en fonction de votre profil",
+            " Des recommandations d'emplois pour vos amis",
+            " Des emplois que vous avez postulés précédemment"
         ],
-        "correct": "a) Des offres d'emploi recommandées en fonction de votre profil",
+        "correct": " Des offres d'emploi recommandées en fonction de votre profil",
         "tip": "Explorez les emplois suggérés pour trouver des opportunités correspondant à votre parcours professionnel."
     },
     {
         "number": 8,
         "question": "Quelle est la caractéristique d'une photo de profil professionnelle recommandée sur LinkedIn ?",
         "answers": [
-            "a) Être accompagné de plusieurs personnes",
-            "b) Avoir un arrière-plan coloré et animé",
-            "c) Être seul sur la photo sur un fond neutre"
+            " Être accompagné de plusieurs personnes",
+            " Avoir un arrière-plan coloré et animé",
+            " Être seul sur la photo sur un fond neutre"
         ],
-        "correct": "c) Être seul sur la photo sur un fond neutre",
+        "correct": " Être seul sur la photo sur un fond neutre",
         "tip": "Une photo de profil professionnelle doit mettre en avant votre visage de manière claire et nette, sans distractions."
     },
     {
         "number": 9,
         "question": "Quelle est l'utilité d'un compte LinkedIn ?",
         "answers": [
-            "a) Trouver des recettes de cuisine",
-            "b) Échanger avec des amis",
-            "c) Développer son réseau professionnel et sa carrière"
+            " Trouver des recettes de cuisine",
+            " Échanger avec des amis",
+            " Développer son réseau professionnel et sa carrière"
         ],
-        "correct": "c) Développer son réseau professionnel et sa carrière",
+        "correct": " Développer son réseau professionnel et sa carrière",
         "tip": "LinkedIn est une plateforme centrée sur le monde professionnel et offre de nombreuses opportunités pour développer votre carrière."
     }
 ];
