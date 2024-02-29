@@ -1,137 +1,114 @@
 const quizz = [
     {
-      "number": 0,
-      "question": "Quel appareil est souvent considéré comme le premier téléphone portable commercial ?",
-      "answers": [
-        " Motorola DynaTAC 8000X",
-        " Nokia 9000 Communicator",
-        " BlackBerry",
-        
-      ],
-      "correct": " Motorola DynaTAC 8000X",
-      "tip": "Le Motorola DynaTAC 8000X, bien que volumineux et coûteux, a été un jalon important dans le développement des téléphones portables."
+        "number": 0,
+        "question": "Quelle est la première étape pour créer un compte LinkedIn ?",
+        "answers": [
+            "a) Télécharger l'application mobile",
+            "b) Entrer votre nom et prénom, puis votre adresse email et un mot de passe",
+            "c) Choisir un nom d'utilisateur et une photo de profil"
+        ],
+        "correct": "b) Entrer votre nom et prénom, puis votre adresse email et un mot de passe",
+        "tip": "Assurez-vous de fournir des informations correctes pour créer votre compte LinkedIn."
     },
     {
-      "number": 1,
-      "question": "Quel système d'exploitation mobile est devenu un concurrent majeur d'iOS après son lancement ?",
-      "answers": [
-        " BlackBerry OS",
-        " Android",
-        " Windows Mobile",
-        
-      ],
-      "correct": " Android",
-      "tip": "Android, développé par Google, est devenu un rival majeur d'iOS grâce à son modèle open-source et à sa disponibilité sur une large gamme d'appareils."
+        "number": 1,
+        "question": "Quelle est la dimension recommandée pour une photo de profil sur LinkedIn ?",
+        "answers": [
+            "a) 800x800 pixels",
+            "b) 500x500 pixels",
+            "c) 1200x1200 pixels"
+        ],
+        "correct": "b) 500x500 pixels",
+        "tip": "Une photo de profil de taille adéquate garantit une meilleure visibilité et qualité sur LinkedIn."
     },
     {
-      "number": 2,
-      "question": "Quel événement a révolutionné l'industrie des télécommunications en introduisant un écran tactile capacitif et un accès à l'App Store ?",
-      "answers": [
-        " Le lancement du BlackBerry",
-        " L'introduction du Nokia 9000 Communicator",
-        " Le lancement de l'iPhone",
-        
-      ],
-      "correct": " Le lancement de l'iPhone",
-      "tip": "L'iPhone d'Apple a été un tournant majeur dans l'histoire des smartphones, introduisant de nombreuses fonctionnalités novatrices."
-    },
-    // Ajout des questions suivantes
-    {
-      "number": 3,
-      "question": "Quel est le nom du système d'exploitation mobile développé par Apple ?",
-      "answers": [
-        " Android",
-        " iOS",
-        " Windows Mobile",
-        
-      ],
-      "correct": " iOS",
-      "tip": "iOS est le système d'exploitation mobile développé par Apple, utilisé sur les iPhones, iPads et iPod Touch."
+        "number": 2,
+        "question": "Qu'est-ce que le réseau sur LinkedIn ?",
+        "answers": [
+            "a) Les personnes avec lesquelles vous êtes en relation sur LinkedIn",
+            "b) La couverture réseau pour les communications sans fil",
+            "c) Les données de trafic Internet"
+        ],
+        "correct": "a) Les personnes avec lesquelles vous êtes en relation sur LinkedIn",
+        "tip": "Votre réseau sur LinkedIn est composé de vos contacts professionnels et peut vous aider dans votre carrière."
     },
     {
-      "number": 4,
-      "question": "Quelle entreprise a lancé le premier smartphone en 2007 ?",
-      "answers": [
-        " Samsung",
-        " Apple",
-        " Nokia",
-        
-      ],
-      "correct": " Apple",
-      "tip": "Apple a été l'entreprise à l'origine du premier iPhone, qui a été lancé en 2007 et a marqué le début de l'ère des smartphones modernes."
+        "number": 3,
+        "question": "Que sont les publications sur LinkedIn ?",
+        "answers": [
+            "a) Des annonces publicitaires",
+            "b) Des contenus partagés pour développer sa visibilité et notoriété",
+            "c) Des recommandations de produits"
+        ],
+        "correct": "b) Des contenus partagés pour développer sa visibilité et notoriété",
+        "tip": "Les publications sur LinkedIn sont un moyen de partager des idées, des connaissances et d'interagir avec d'autres professionnels."
     },
     {
-      "number": 5,
-      "question": "Quelle est la principale fonctionnalité d'un GPS sur un smartphone ?",
-      "answers": [
-        " Envoyer des messages texte",
-        " Jouer à des jeux",
-        " Navigation et cartographie",
-        
-      ],
-      "correct": " Navigation et cartographie",
-      "tip": "La principale fonctionnalité d'un GPS sur un smartphone est la navigation et la cartographie, permettant aux utilisateurs de trouver des directions et des informations sur les lieux."
+        "number": 4,
+        "question": "Qu'est-ce que l'outil de messagerie sur LinkedIn ?",
+        "answers": [
+            "a) Un outil pour écrire des articles",
+            "b) Un outil pour échanger des messages privés avec d'autres membres",
+            "c) Un outil pour créer des événements professionnels"
+        ],
+        "correct": "b) Un outil pour échanger des messages privés avec d'autres membres",
+        "tip": "La messagerie sur LinkedIn est utile pour établir des connexions et communiquer avec d'autres professionnels."
+    },
+    {
+        "number": 5,
+        "question": "Que devrait contenir une photo de profil professionnelle sur LinkedIn ?",
+        "answers": [
+            "a) Un arrière-plan chargé et coloré",
+            "b) Un selfie avec des amis",
+            "c) Un visage clair et net sur un fond neutre"
+        ],
+        "correct": "c) Un visage clair et net sur un fond neutre",
+        "tip": "Votre photo de profil est importante car elle donne une première impression professionnelle."
     },
     {
         "number": 6,
-        "question": "Sur quel écran principal de votre smartphone trouvez-vous généralement les icônes des applications ?",
+        "question": "Comment finalisez-vous votre inscription sur LinkedIn ?",
         "answers": [
-          " Écran de verrouillage",
-          " Écran d'accueil",
-          " Écran de réglages",
-          
+            "a) En payant des frais d'inscription",
+            "b) En validant votre adresse email",
+            "c) En envoyant une demande de confirmation à LinkedIn"
         ],
-        "correct": " Écran d'accueil",
-        "tip": "L'écran d'accueil est le premier écran que vous voyez lorsque vous déverrouillez votre smartphone. Il contient généralement des icônes d'applications et des widgets."
-      },
-      {
+        "correct": "b) En validant votre adresse email",
+        "tip": "Assurez-vous de vérifier votre boîte de réception pour le lien de validation après votre inscription."
+    },
+    {
         "number": 7,
-        "question": "À quoi sert le bouton d'alimentation sur un smartphone ?",
+        "question": "Que sont les emplois suggérés sur LinkedIn ?",
         "answers": [
-          " Prendre des photos",
-          " Allumer ou éteindre l'appareil",
-          " Régler le volume",
-          
+            "a) Des offres d'emploi recommandées en fonction de votre profil",
+            "b) Des recommandations d'emplois pour vos amis",
+            "c) Des emplois que vous avez postulés précédemment"
         ],
-        "correct": " Allumer ou éteindre l'appareil",
-        "tip": "Le bouton d'alimentation, également appelé bouton marche/arrêt, permet d'allumer ou d'éteindre votre smartphone."
-      },
-      {
+        "correct": "a) Des offres d'emploi recommandées en fonction de votre profil",
+        "tip": "Explorez les emplois suggérés pour trouver des opportunités correspondant à votre parcours professionnel."
+    },
+    {
         "number": 8,
-        "question": "Qu'est-ce qu'un smartphone ?",
+        "question": "Quelle est la caractéristique d'une photo de profil professionnelle recommandée sur LinkedIn ?",
         "answers": [
-          " Un appareil électronique pour faire du café",
-          " Un téléphone portable avec des fonctionnalités avancées",
-          " Un dispositif pour regarder la télévision",
-          
+            "a) Être accompagné de plusieurs personnes",
+            "b) Avoir un arrière-plan coloré et animé",
+            "c) Être seul sur la photo sur un fond neutre"
         ],
-        "correct": " Un téléphone portable avec des fonctionnalités avancées",
-        "tip": "Un smartphone est un téléphone portable qui offre des fonctionnalités avancées telles que la navigation sur Internet, la prise de photos, l'accès aux applications, etc."
-      },
-      {
+        "correct": "c) Être seul sur la photo sur un fond neutre",
+        "tip": "Une photo de profil professionnelle doit mettre en avant votre visage de manière claire et nette, sans distractions."
+    },
+    {
         "number": 9,
-        "question": "Quelle est la principale caractéristique d'un smartphone ?",
+        "question": "Quelle est l'utilité d'un compte LinkedIn ?",
         "answers": [
-          " Capacité à voler",
-          " Capacité à cuisiner des repas",
-          " Capacité à se connecter à Internet",
-          
+            "a) Trouver des recettes de cuisine",
+            "b) Échanger avec des amis",
+            "c) Développer son réseau professionnel et sa carrière"
         ],
-        "correct": " Capacité à se connecter à Internet",
-        "tip": "L'une des principales caractéristiques d'un smartphone est sa capacité à se connecter à Internet, ce qui permet aux utilisateurs d'accéder à une multitude de services en ligne."
-      },
-      {
-        "number": 10,
-        "question": "Quelle fonctionnalité permet aux utilisateurs de prendre des photos avec un smartphone ?",
-        "answers": [
-          " Enregistrement audio",
-          " Appareil photo intégré",
-          " GPS",
-          
-        ],
-        "correct": " Appareil photo intégré",
-        "tip": "Les smartphones sont équipés d'un appareil photo intégré qui permet aux utilisateurs de prendre des photos et des vidéos avec leur téléphone."
-      }
+        "correct": "c) Développer son réseau professionnel et sa carrière",
+        "tip": "LinkedIn est une plateforme centrée sur le monde professionnel et offre de nombreuses opportunités pour développer votre carrière."
+    }
 ];
 
   
